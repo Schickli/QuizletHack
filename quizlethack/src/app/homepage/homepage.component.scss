@@ -1,0 +1,29 @@
+.container{
+    box-shadow: 1px 1px 10px 1px #ac9b9b;
+    padding: 1%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 5%;
+    max-width: 1000px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enterSection{
+    display: flex;
+    flex-direction: column;
+
+    mat-form-field{
+        width: 100%;
+    }
+}
+
+button{
+    margin-bottom: 4%;
+
+    width: 100%;
+}
