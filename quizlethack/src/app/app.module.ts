@@ -8,6 +8,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import {MaterialModule} from './material/material.module';
 import { IframeComponent } from './iframe/iframe.component'
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {ClipboardModule} from '@angular/cdk/clipboard';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
