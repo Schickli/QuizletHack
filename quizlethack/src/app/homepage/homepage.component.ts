@@ -37,10 +37,10 @@ export class HomepageComponent {
     }
 
     if (this.value.includes('quizlet.com')) {
-      let url = 'https://quizlet.com/409678113/match/embed?i=20puov&x=1jj1';
+      
       // get previous quizlet urls from local storage
       this.addUrlToLocalStorage(this.value);
-      this.router.navigate(['learning'], { state: { quizletUrl: url } });
+      this.router.navigate(['learning'], { state: { quizletUrl: this.value } });
     }
   }
 
